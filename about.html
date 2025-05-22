@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me - Odin Recipes</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-hero {
+      background-image: url("fondito.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .hero-image img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .hero-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-image {
+      flex: 0 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <img src="https://www.theodinproject.com/favicon-32x32.png" alt="Odin Logo">
+        <span>Odin Recipes</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index-for-recipes/recipes-index.html">Recipes</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero about-hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>About Me</h1>
+        <p>This project marks the beginning of my journey with HTML and CSS. Here's a bit about who I am and what I’ve learned.</p>
+      </div>
+      <div class="hero-image">
+        <img src="foto-mia.png.jpeg" alt="una fotito mia :)" />
+      </div>
+    </div>
+  </section>
+
+  <main class="container about-content">
+
+    <section class="about-intro card">
+      <h2>Hi! I'm Eizan</h2>
+      <p>
+        This is my first web development project, where I learned the basics of HTML and CSS thanks to The Odin Project. Creating this recipe site took me way more effort than I’d like to admit. But hey, despite that, I’m really excited to keep improving and learning—slowly but surely, I’ll start building more complex websites soon.
+      </p>
+      <p>
+        Every part of this site, from the layout to the navigation, was built by hand as part of my learning process. With an equal mix of blood, sweat, and tears (both from joy and frustration), I’ve discovered how fun and satisfying coding can be. I’ve also learned that it can be painful (and believe me, I’ve felt that the most), but even so, I’m genuinely happy with my site and how it turned out.
+      </p>
+    </section>
+
+    <section class="about-contact card">
+      <h2>Contact Me</h2>
+      <ul class="contact-list">
+        <li><strong>GitHub:</strong> <a href="https://github.com/Eizan-Matarin" target="_blank">Eizan-Matarin</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eizan-matarin-bonachera-3b129b366/" target="_blank">Eizan Matarin Bonachera</a></li>
+        <li><strong>Email:</strong> <a href="mailto:EizanMB@gmail.com">EizanMB@gmail.com</a></li>
+        <li><strong>Phone:</strong> +34 601 108 771</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Odin Recipes by Eizan. Proudly made with curiosity and caffeine.</p>
+  </footer>
+
+</body>
+</html>
