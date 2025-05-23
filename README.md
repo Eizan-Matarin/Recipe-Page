@@ -1,6 +1,6 @@
 🍽️ Odin Recipes by Eizan
 
-Welcome to Odin Recipes, a landing page project inspired by The Odin Project.
+Welcome to Odin Recipes, a mini-website project inspired by The Odin Project.
 Here, you'll discover legendary recipes worthy of the gods, all presented through a clean, modern, and fully responsive interface.
 
 This is my first web development project, so please be kind if you're judging it — I'm learning as I go!
